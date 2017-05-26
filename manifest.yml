@@ -4,7 +4,7 @@ declared-services:
     label: retrieve_and_rank
     plan: standard
 applications:
-- name: retrieve-and-rank-java
+- name: gburg-handbook-demo
   services:
     - retrieve-and-rank-standard
   path: target/retrieve-and-rank-demo-0.5-SNAPSHOT
